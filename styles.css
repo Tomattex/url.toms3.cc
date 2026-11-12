@@ -18,6 +18,11 @@ html, body {
     width: 100%;
     min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: url("resources/cursors/pointer.cur"), auto;
+}
+
+a, button {
+    cursor: url("resources/cursors/click.cur"), pointer;
 }
 
 /* header */
