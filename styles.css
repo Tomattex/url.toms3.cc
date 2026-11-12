@@ -96,6 +96,7 @@ html, body {
 .window-title h1 {
     font-size: 13px;
     text-align: center;
+    user-select: none;
 }
 
 .window-body {
