@@ -246,6 +246,7 @@ html, body {
 .end {
     text-align: center;
     font-size: 10px;
+    user-select: none;
 }
 
 .end-line {
