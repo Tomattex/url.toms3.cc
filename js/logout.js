@@ -1,7 +1,9 @@
 const logout_button = document.getElementById("logout-button");
 
 logout_button.addEventListener("click", () => {
-    fetch("api/v1/auth/logout.php")
+    fetch("api/v1/auth/logout.php", {
+        method: "POST"
+    })
     .then(async response => {
         if (response.ok) {
             window.location.href = "index.php";
