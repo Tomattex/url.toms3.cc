@@ -8,10 +8,10 @@ format
 
     <component>: <short description>
 
-- use lowercase for component names
-- keep descriptions short, clear
+- use lowercase component names
+- keep descriptions short and clear
 - do not end descriptions with a period
-- describe what changed
+- describe what was changed
 
 examples
 --------
@@ -30,5 +30,5 @@ for larger changes add a blank line after the subject and explain what changed
 
     refactor: only accept post petitions for logout
 
-    Restrict the logout endpoint to POST instead of GET
-    to prevent unintended logout.
+    Restrict the logout endpoint to POST requests instead of GET
+    to prevent unintended logouts.
