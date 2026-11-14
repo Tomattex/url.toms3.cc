@@ -21,7 +21,7 @@ html, body {
     cursor: url("resources/cursors/pointer.cur"), auto;
 }
 
-a, button {
+a, button, .popup-button:hover, .popup-close:hover, .window-body button:hover {
     cursor: url("resources/cursors/click.cur"), pointer;
 }
 
